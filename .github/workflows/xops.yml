@@ -1,0 +1,12 @@
+name: XOps Flash Challenge
+
+on:
+  workflow_dispatch:  # Allows manual trigger from GitHub Actions tab
+
+jobs:
+  say-awesome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Message
+        run: echo "XOps is awesome!"
+
